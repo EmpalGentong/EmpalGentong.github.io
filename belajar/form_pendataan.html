@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Form Biodata</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1 class="jdl-besar">FORM BIODATA MAHASISWA</h1>
+    
+    <fieldset>
+        <legend>General</legend>
+        <div>
+            <label id="name-label" for="name">NAMA :</label>
+            <input type="text" required id="name" name="username" placeholder="Masukkan Nama Anda">
+        </div>
+        <div>
+            <label id="alamat-label" for="alamat">ALAMAT :</label>
+            <input type="alamat" id="alamat" name="alamat" placeholder="Masukkan Alamat anda">
+        </div>
+        <div>
+            <label id="telp-label" for="telpon">NO. HP :</label>
+            <input type="number" id="telpon" name="telpon" placeholder="Masukkan no Hp anda">
+        </div>
+        <!-------------------------------------------------------------------------------->
+        <div>
+            <label id="gender" for="gender">Jenis Kelamin :</label>
+            <p>
+                <input type="radio" name="gender" value="male" checked>Pria<br>
+                <input type="radio" name="gender" value="female">Wanita<br>
+            </p>
+        </div>
+        <!-------------------------------------------------------------------------------->
+        <label id="date-label" for="bdate">Tanggal lahir</label>
+        <input type="date" name="bdate">
+        <!-------------------------------------------------------------------------------->
+    </fieldset>
+    <fieldset>
+        <legend>Logika dan Kepribadian</legend>
+        <div>
+            <label id="personality-label" for="sifat">Pilih yang sesuai dengan kepribadian anda</label>
+            <p>
+                <input type="checkbox" name="sifat" value="disiplin">anda datang tepat waktu<br>
+                <input type="checkbox" name="sifat" value="kerjasama">anda mampu bekerja dalam tim<br>
+                <input type="checkbox" name="sifat" value="teknis">anda mampu melakukan hal teknis
+            </p>
+        </div>
+    </fieldset>
+</body>
